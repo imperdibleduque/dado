@@ -41,7 +41,7 @@ let d1;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	background(100);
-	textSize(windowHeight/2);
+	textSize(500);
 	fill(200,200,20);
 	d1= new Dado();
 }
