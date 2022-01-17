@@ -8,7 +8,7 @@ class Dado{
         this.numero=Math.floor( Math.random()*6+1);
     }
     ver(){
-        text(this.numero,windowWidth/4, windowHeight-100);
+        text(this.numero,windowWidth/4, windowHeight-300);
     }
 		tirarVer(){
 			tirar();
